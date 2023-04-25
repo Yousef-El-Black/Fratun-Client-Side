@@ -121,12 +121,13 @@ const Header = () => {
             <div className="btns flex gap-4 items-center justify-center">
               {btnsItems.map((btn, index) => {
                 return (
-                  <button
+                  <Link
+                    href="a"
                     key={index}
                     className="flex justify-center items-center rounded-lg capitalize bg-electricGreen text-[#463399] font-semibold py-3 px-4 hover:opacity-75 duration-300"
                   >
                     {btn}
-                  </button>
+                  </Link>
                 );
               })}
             </div>
